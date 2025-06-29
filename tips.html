@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Guide & Fashion Tips | VogueVista</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">VogueVista</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="trends.html">Trends</a></li>
+                <li><a href="tips.html" class="active">Style Guide</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Tips Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Style Guide & Fashion Tips</h1>
+            <p>Expert advice to elevate your wardrobe</p>
+        </div>
+    </section>
+
+    <!-- Tips Categories -->
+    <section class="tips-categories">
+        <div class="container">
+            <div class="category-tabs">
+                <button class="tab-btn active" data-tab="color">Color Combinations</button>
+                <button class="tab-btn" data-tab="accessories">Accessorizing</button>
+                <button class="tab-btn" data-tab="seasonal">Seasonal Style</button>
+                <button class="tab-btn" data-tab="bodytype">Body Types</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tips Content -->
+    <section class="tips-content">
+        <div class="container">
+            <!-- Color Combinations -->
+            <div id="color" class="tab-content active">
+                <h2>Mastering Color Combinations</h2>
+                <div class="tip-card">
+                    <div class="tip-image">
+                        <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Complementary color outfit">
+                    </div>
+                    <div class="tip-text">
+                        <h3>Complementary Colors</h3>
+                        <p class="">Colors opposite each other on the color wheel create vibrant looks. Try pairing blue with orange or purple with yellow for bold statements.</p>
+                        <ul class="tip-list">
+                            <li>Royal blue + burnt orange</li>
+                            <li>Emerald green + ruby red</li>
+                            <li>Lavender + mustard yellow</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tip-card reverse">
+                    <div class="tip-image">
+                        <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Monochromatic outfit">
+                    </div>
+                    <div class="tip-text">
+                        <h3>Monochromatic Magic</h3>
+                        <p>Wearing different shades of the same color creates an elegant, elongating effect. This is especially flattering for petite frames.</p>
+                        <ul class="tip-list">
+                            <li>Start with a base color you love</li>
+                            <li>Mix textures for visual interest</li>
+                            <li>Add one contrasting accessory</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-image">
+                        <img src="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2005&q=80" alt="Neutral color palette">
+                    </div>
+                    <div class="tip-text">
+                        <h3>Neutral Foundation</h3>
+                        <p>Build your wardrobe around neutral colors like beige, cream, gray, and navy. These versatile shades work with everything and create a sophisticated base.</p>
+                        <ul class="tip-list">
+                            <li>Invest in quality neutral basics</li>
+                            <li>Mix warm and cool neutrals carefully</li>
+                            <li>Add pops of color through accessories</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Accessorizing -->
+            <div id="accessories" class="tab-content">
+                <h2>The Art of Accessorizing</h2>
+                <div class="tip-card">
+                    <div class="tip-image">
+                        <img src="https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1988&q=80" alt="Statement jewelry">
+                    </div>
+                    <div class="tip-text">
+                        <h3>Statement Jewelry</h3>
+                        <p>One bold piece can transform a simple outfit. Choose either statement earrings OR a statement necklace, not both.</p>
+                        <ul class="tip-list">
+                            <li>Keep other jewelry minimal when wearing statement pieces</li>
+                            <li>Match metals for a cohesive look</li>
+                            <li>Consider your neckline when choosing necklaces</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tip-card reverse">
+                    <div class="tip-image">
+                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Layered necklaces">
+                    </div>
+                    <div class="tip-text">
+                        <h3>Layering Techniques</h3>
+                        <p>Layered necklaces, stacked bracelets, and multiple rings can add dimension to your look. Follow these rules for perfect layering:</p>
+                        <ul class="tip-list">
+                            <li>Vary chain lengths and thicknesses</li>
+                            <li>Mix textures but keep metals consistent</li>
+                            <li>Start with delicate pieces and build up</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-image">
+                        <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Handbag collection">
+                    </div>
+                    <div class="tip-text">
+                        <h3>Bag Selection</h3>
+                        <p>Your bag should complement your outfit and serve your needs. Consider proportion, color, and occasion when choosing.</p>
+                        <ul class="tip-list">
+                            <li>Small frames: avoid oversized bags</li>
+                            <li>Tall figures: can carry larger bags</li>
+                            <li>Match formality level to your outfit</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Seasonal Style -->
+            <div id="seasonal" class="tab-content">
+                <h2>Seasonal Styling Guide</h2>
+                <div class="tip-card">
+                    <div class="tip-image">
+                        <img src="https://images.unsplash.com/photo-1445205170230-053b83016050?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" alt="Summer fashion">
+                    </div>
+                    <div class="tip-text">
+                        <h3>Summer Essentials</h3>
+                        <p>Light fabrics, breathable materials, and bright colors define summer style. Focus on comfort without sacrificing elegance.</p>
+                        <ul class="tip-list">
+                            <li>Linen and cotton for breathability</li>
+                            <li>Light colors reflect heat</li>
+                            <li>Flowing silhouettes for air circulation</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tip-card reverse">
+                    <div class="tip-image">
+                        <img src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Fall fashion">
+                    </div>
+                    <div class="tip-text">
+                        <h3>Fall Layering</h3>
+                        <p>Master the art of layering for autumn. Mix textures and colors while maintaining a cohesive look throughout temperature changes.</p>
+                        <ul class="tip-list">
+                            <li>Start with a base layer</li>
+                            <li>Add cardigans or blazers</li>
+                            <li>Rich colors like burgundy and mustard</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-image">
+                        <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2020&q=80" alt="Winter fashion">
+                    </div>
+                    <div class="tip-text">
+                        <h3>Winter Elegance</h3>
+                        <p>Stay warm while looking chic. Invest in quality outerwear and learn to layer effectively for both style and function.</p>
+                        <ul class="tip-list">
+                            <li>Quality wool coats are essential</li>
+                            <li>Cashmere scarves add luxury</li>
+                            <li>Dark colors hide winter wear and tear</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Body Types -->
+            <div id="bodytype" class="tab-content">
+                <h2>Dressing for Your Body Type</h2>
+                <p>Fashion is about celebrating your unique shape and highlighting your best features. Here are styling tips for different body types:</p>
+                
+                <div class="bodytype-grid">
+                    <div class="bodytype-card">
+                        <img src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Apple body type styling">
+                        <h3>Apple Shape</h3>
+                        <p>Emphasize your legs and arms while creating a defined waistline.</p>
+                        <ul class="tip-list">
+                            <li>Empire waistlines</li>
+                            <li>V-necks and scoop necks</li>
+                            <li>A-line dresses and tops</li>
+                        </ul>
+                    </div>
+                    <div class="bodytype-card">
+                        <img src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Pear body type styling">
+                        <h3>Pear Shape</h3>
+                        <p>Balance your proportions by highlighting your upper body and elongating your silhouette.</p>
+                        <ul class="tip-list">
+                            <li>Boat necks and horizontal stripes on top</li>
+                            <li>Darker colors on bottom</li>
+                            <li>Structured blazers</li>
+                        </ul>
+                    </div>
+                    <div class="bodytype-card">
+                        <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Hourglass body type styling">
+                        <h3>Hourglass Shape</h3>
+                        <p>Highlight your natural waistline and show off your balanced proportions.</p>
+                        <ul class="tip-list">
+                            <li>Fitted tops and dresses</li>
+                            <li>Belted waists</li>
+                            <li>Wrap dresses and tops</li>
+                        </ul>
+                    </div>
+                    <div class="bodytype-card">
+                        <img src="https://images.unsplash.com/photo-1581338834647-b0fb40704e21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80" alt="Rectangle body type styling">
+                        <h3>Rectangle Shape</h3>
+                        <p>Create curves and add dimension to your straight silhouette.</p>
+                        <ul class="tip-list">
+                            <li>Peplum tops and dresses</li>
+                            <li>Layering for texture</li>
+                            <li>Ruffles and embellishments</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Tips Section -->
+    <section class="quick-tips">
+        <div class="container">
+            <h2>Quick Style Tips</h2>
+            <div class="tips-grid">
+                <div class="tip-box">
+                    <div class="tip-icon">
+                        <i class="fas fa-tshirt"></i>
+                    </div>
+                    <h3>Fit is Everything</h3>
+                    <p>A well-fitted basic piece always looks better than an expensive ill-fitting garment.</p>
+                </div>
+                <div class="tip-box">
+                    <div class="tip-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Quality Over Quantity</h3>
+                    <p>Invest in fewer, higher-quality pieces that will last longer and look better.</p>
+                </div>
+                <div class="tip-box">
+                    <div class="tip-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Know Your Colors</h3>
+                    <p>Understand which colors complement your skin tone and make you glow.</p>
+                </div>
+                <div class="tip-box">
+                    <div class="tip-icon">
+                        <i class="fas fa-shoe-prints"></i>
+                    </div>
+                    <h3>Comfort First</h3>
+                    <p>You'll look more confident and radiant when you feel comfortable in your clothes.</p>
+                </div>
+                <div class="tip-box">
+                    <div class="tip-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Personal Style</h3>
+                    <p>Develop your unique style rather than following every trend blindly.</p>
+                </div>
+                <div class="tip-box">
+                    <div class="tip-icon">
+                        <i class="fas fa-recycle"></i>
+                    </div>
+                    <h3>Sustainable Fashion</h3>
+                    <p>Choose timeless pieces and support brands with ethical practices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>VogueVista</h3>
+                    <p>Bringing you the latest in fashion trends and style inspiration since 2020.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="trends.html">Trends</a></li>
+                        <li><a href="tips.html">Style Guide</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 VogueVista. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

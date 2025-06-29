@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VogueVista | Modern Fashion Hub</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">VogueVista</a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="trends.html">Trends</a></li>
+                <li><a href="tips.html">Style Guide</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+   <!-- Hero Banner with Slideshow -->
+<section class="hero">
+    <div class="slideshow-container">
+        <div class="slide fade">
+            <a href="trends.html">
+                <img src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Summer collection fashion models">
+            </a>
+            <div class="slide-text">
+                <h1>Summer Collection 2024</h1>
+                <p>Discover the latest trends for this season</p>
+                <a href="trends.html" class="btn">Explore Now</a>
+            </div>
+        </div>
+        <div class="slide fade">
+            <a href="trends.html">
+                <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2020&q=80" alt="Elegant evening wear fashion">
+            </a>
+            <div class="slide-text">
+                <h1>Elegant Evening Wear</h1>
+                <p>Perfect outfits for your special occasions</p>
+                <a href="trends.html" class="btn">View Collection</a>
+            </div>
+        </div>
+        <div class="slide fade">
+            <a href="trends.html">
+                <img src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Streetwear fashion models">
+            </a>
+            <div class="slide-text">
+                <h1>Urban Streetwear</h1>
+                <p>Bold styles for the modern city life</p>
+                <a href="trends.html" class="btn">Shop Now</a>
+            </div>
+        </div>
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <div class="dots-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+</section>
+
+    <!-- Welcome Section -->
+    <section class="welcome">
+        <div class="container">
+            <h2>Welcome to VogueVista</h2>
+            <p class="subtitle">Your ultimate destination for fashion inspiration</p>
+            <div class="welcome-content">
+                <p>At VogueVista, we believe fashion is more than just clothing - it's a form of self-expression. Our platform brings you the latest trends, style guides, and fashion tips from around the world. Whether you're looking for casual everyday outfits or glamorous evening wear, we've got you covered.</p>
+                <p>Explore our collections, learn styling techniques, and discover your unique fashion voice with our expert advice.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Categories -->
+    <section class="featured-categories">
+        <div class="container">
+            <h2>Featured Categories</h2>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <a href="trends.html?filter=casual">
+                        <img src="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2005&q=80" alt="Casual fashion">
+                    </a>
+                    <div class="category-overlay">
+                        <h3>Casual</h3>
+                        <a href="trends.html?filter=casual" class="btn-outline">View Styles</a>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <a href="trends.html?filter=formal">
+                        <img src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Formal fashion">
+                    </a>
+                    <div class="category-overlay">
+                        <h3>Formal</h3>
+                        <a href="trends.html?filter=formal" class="btn-outline">View Styles</a>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <a href="trends.html?filter=streetwear">
+                        <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Streetwear fashion">
+                    </a>
+                    <div class="category-overlay">
+                        <h3>Streetwear</h3>
+                        <a href="trends.html?filter=streetwear" class="btn-outline">View Styles</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="newsletter">
+        <div class="container">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to our newsletter for the latest fashion trends and exclusive offers</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit" class="btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>VogueVista</h3>
+                    <p>Bringing you the latest in fashion trends and style inspiration since 2020.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="trends.html">Trends</a></li>
+                        <li><a href="tips.html">Style Guide</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 VogueVista. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
